@@ -1,0 +1,1192 @@
+[
+  {
+    "ContainingType": "MisLibros.Controllers.ApunteController",
+    "Method": "GetAllApuntes",
+    "RelativePath": "api/Apunte",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ApunteController",
+    "Method": "AddApunte",
+    "RelativePath": "api/Apunte",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addApunteDto",
+        "Type": "MisLibros.Models.Dtos.Apunte.AddApunteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ApunteController",
+    "Method": "GetApunteById",
+    "RelativePath": "api/Apunte/{id}/{titulo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ApunteController",
+    "Method": "UpdateApunte",
+    "RelativePath": "api/Apunte/{id}/{titulo}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateApunteDto",
+        "Type": "MisLibros.Models.Dtos.Apunte.UpdateApunteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ApunteController",
+    "Method": "DeleteApunte",
+    "RelativePath": "api/Apunte/{id}/{titulo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "GetAllArticulos",
+    "RelativePath": "api/Articulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "AddArticulo",
+    "RelativePath": "api/Articulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addArticuloDto",
+        "Type": "MisLibros.Models.Dtos.Articulo.AddArticuloDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "GetArticuloById",
+    "RelativePath": "api/Articulo/{idUsuario}/{idLibro}/{tituloApunte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "DeleteArticulo",
+    "RelativePath": "api/Articulo/{idUsuario}/{idLibro}/{tituloApunte}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "GetAllArticulosByLibro",
+    "RelativePath": "api/Articulo/libro/{idLibro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "GetAllArticulosByTitulo",
+    "RelativePath": "api/Articulo/titulo/{tituloApunte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ArticuloController",
+    "Method": "GetAllArticulosByUsuario",
+    "RelativePath": "api/Articulo/usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.BibliotecaController",
+    "Method": "GetAllBibliotecas",
+    "RelativePath": "api/Biblioteca",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.BibliotecaController",
+    "Method": "AddBiblioteca",
+    "RelativePath": "api/Biblioteca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBibliotecaDto",
+        "Type": "MisLibros.Models.Dtos.Biblioteca.AddBibliotecaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.BibliotecaController",
+    "Method": "GetBibliotecaById",
+    "RelativePath": "api/Biblioteca/{idLibro}/{idEditorial}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.BibliotecaController",
+    "Method": "UpdateBiblioteca",
+    "RelativePath": "api/Biblioteca/{idLibro}/{idEditorial}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBibliotecaDto",
+        "Type": "MisLibros.Models.Dtos.Biblioteca.UpdateBibliotecaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.BibliotecaController",
+    "Method": "DeleteBiblioteca",
+    "RelativePath": "api/Biblioteca/{idLibro}/{idEditorial}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "GetAllCitas",
+    "RelativePath": "api/Cita",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "AddCita",
+    "RelativePath": "api/Cita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCitaDto",
+        "Type": "MisLibros.Models.Dtos.Cita.AddCitaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "UpdateCita",
+    "RelativePath": "api/Cita",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCitaDto",
+        "Type": "MisLibros.Models.Dtos.Cita.UpdateCitaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "GetCitaById",
+    "RelativePath": "api/Cita/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "DeleteCita",
+    "RelativePath": "api/Cita/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.CitaController",
+    "Method": "GetCitasByLibroEditorial",
+    "RelativePath": "api/Cita/libro/{idLibro}/editorial/{idEditorial}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ComentarioArticuloController",
+    "Method": "AddComentario",
+    "RelativePath": "api/ComentarioArticulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentario",
+        "Type": "MisLibros.Models.Dtos.ComentarioArticulo.AddComentarioArticuloDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ComentarioArticuloController",
+    "Method": "GetComentario",
+    "RelativePath": "api/ComentarioArticulo/{idUsuarioComentario}/{idUsuarioArticulo}/{idLibro}/{TituloApunte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuarioComentario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioArticulo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ComentarioArticuloController",
+    "Method": "UpdateComentario",
+    "RelativePath": "api/ComentarioArticulo/{idUsuarioComentario}/{idUsuarioArticulo}/{idLibro}/{TituloApunte}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuarioComentario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioArticulo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "texto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ComentarioArticuloController",
+    "Method": "DeleteComentario",
+    "RelativePath": "api/ComentarioArticulo/{idUsuarioComentario}/{idUsuarioArticulo}/{idLibro}/{TituloApunte}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuarioComentario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioArticulo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.ComentarioArticuloController",
+    "Method": "GetAllComentariosByArticulo",
+    "RelativePath": "api/ComentarioArticulo/articulo/{idUsuario}/{idLibro}/{tituloApunte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EditorialController",
+    "Method": "GetAlllEditoriales",
+    "RelativePath": "api/Editorial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EditorialController",
+    "Method": "AddEditorial",
+    "RelativePath": "api/Editorial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addEditorialDto",
+        "Type": "MisLibros.Models.Dtos.Editorial.AddEditorialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EditorialController",
+    "Method": "GetEditorialById",
+    "RelativePath": "api/Editorial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EditorialController",
+    "Method": "UpdateEditorial",
+    "RelativePath": "api/Editorial/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEditorialDto",
+        "Type": "MisLibros.Models.Dtos.Editorial.UpdateEditorialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EditorialController",
+    "Method": "DeleteEditorial",
+    "RelativePath": "api/Editorial/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EscritorController",
+    "Method": "GetAllEscritores",
+    "RelativePath": "api/Escritor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EscritorController",
+    "Method": "AddEscritor",
+    "RelativePath": "api/Escritor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "escritorDto",
+        "Type": "MisLibros.Models.Dtos.Escritor.AddEscritorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EscritorController",
+    "Method": "GetEscritorById",
+    "RelativePath": "api/Escritor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EscritorController",
+    "Method": "UpdateEscritor",
+    "RelativePath": "api/Escritor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEscritorDto",
+        "Type": "MisLibros.Models.Dtos.Escritor.UpdateEscritorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.EscritorController",
+    "Method": "DeleteEscritor",
+    "RelativePath": "api/Escritor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.GeneroController",
+    "Method": "GetAllGeneros",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.GeneroController",
+    "Method": "AddGenero",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addGeneroDto",
+        "Type": "MisLibros.Models.Dtos.Genero.AddGeneroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.GeneroController",
+    "Method": "GetGeneroById",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.GeneroController",
+    "Method": "UpdateGenero",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateGeneroDto",
+        "Type": "MisLibros.Models.Dtos.Genero.UpdateGeneroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.GeneroController",
+    "Method": "DeleteGenero",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "GetAllLecturas",
+    "RelativePath": "api/Lectura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "AddLectura",
+    "RelativePath": "api/Lectura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturaDto",
+        "Type": "MisLibros.Models.Dtos.Lectura.AddLecturaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "GetLecturaById",
+    "RelativePath": "api/Lectura/{idUsuario}/{idLibro}/{idEditorial}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "UpdateLectura",
+    "RelativePath": "api/Lectura/{idUsuario}/{idLibro}/{idEditorial}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lecturaDto",
+        "Type": "MisLibros.Models.Dtos.Lectura.AddLecturaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "DeleteLectura",
+    "RelativePath": "api/Lectura/{idUsuario}/{idLibro}/{idEditorial}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "GetAllLecturasByEditorial",
+    "RelativePath": "api/Lectura/editorial/{idEditorial}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEditorial",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "GetAllLecturasByLibro",
+    "RelativePath": "api/Lectura/libro/{idLibro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LecturaController",
+    "Method": "GetAllLecturasByUsuario",
+    "RelativePath": "api/Lectura/usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LibroController",
+    "Method": "GetAllLibros",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LibroController",
+    "Method": "AddLibro",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLibroDto",
+        "Type": "MisLibros.Models.Dtos.Libro.AddLibroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LibroController",
+    "Method": "GetLibroById",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LibroController",
+    "Method": "UpdateLibro",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateLibroDto",
+        "Type": "MisLibros.Models.Dtos.Libro.UpdateLibroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LibroController",
+    "Method": "DeleteLibro",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LikeController",
+    "Method": "AddLike",
+    "RelativePath": "api/Like",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "like",
+        "Type": "MisLibros.Models.Dtos.Like.AddLikeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LikeController",
+    "Method": "DeleteLike",
+    "RelativePath": "api/Like/{idUsuarioComentario}/{idUsuarioArticulo}/{idLibro}/{TituloApunte}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuarioComentario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioArticulo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.LikeController",
+    "Method": "GetNumberOfLikesByArticulo",
+    "RelativePath": "api/Like/articulo/{idUsuario}/{idLibro}/{tituloApunte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idLibro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tituloApunte",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "MisLibros.Models.Dtos.Usuario.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MisLibros.Models.Dtos.Usuario.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MisLibros.Controllers.UsersController",
+    "Method": "GetUserByUsername",
+    "RelativePath": "api/Users/username/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

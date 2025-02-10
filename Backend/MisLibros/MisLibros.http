@@ -1,0 +1,6 @@
+@MisLibros_HostAddress = http://localhost:5219
+
+GET {{MisLibros_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
