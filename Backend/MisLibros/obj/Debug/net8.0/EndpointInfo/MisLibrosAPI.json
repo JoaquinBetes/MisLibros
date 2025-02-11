@@ -2171,15 +2171,8 @@
         "additionalProperties": false
       },
       "UpdateApunteDto": {
-        "required": [
-          "titulo"
-        ],
         "type": "object",
         "properties": {
-          "titulo": {
-            "type": "string",
-            "nullable": true
-          },
           "fecha": {
             "type": "string",
             "format": "date"
@@ -2187,10 +2180,6 @@
           "texto": {
             "type": "string",
             "nullable": true
-          },
-          "idLibro": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

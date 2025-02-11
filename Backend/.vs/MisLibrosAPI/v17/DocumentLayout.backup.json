@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\controllers\\apuntecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\controllers\\apuntecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\models\\dtos\\apunte\\updateapuntedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\dtos\\apunte\\updateapuntedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateApunteDto.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
+              "RelativeDocumentMoniker": "MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
+              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
+              "RelativeToolTip": "MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T22:50:05.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApunteController.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\ApunteController.cs",
+              "RelativeDocumentMoniker": "MisLibros\\Controllers\\ApunteController.cs",
+              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\ApunteController.cs",
+              "RelativeToolTip": "MisLibros\\Controllers\\ApunteController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T22:48:53.362Z",
+              "EditorCaption": ""
             }
           ]
         }

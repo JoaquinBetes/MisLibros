@@ -61,10 +61,8 @@ namespace MisLibros.Controllers
                 return NotFound();
             }
 
-            apunte.Titulo = updateApunteDto.Titulo;
             apunte.Fecha = updateApunteDto.Fecha;
             apunte.Texto = updateApunteDto.Texto;
-            apunte.IdLibro = updateApunteDto.IdLibro;
 
             _context.Apuntes.Update(apunte);
             await _context.SaveChangesAsync();

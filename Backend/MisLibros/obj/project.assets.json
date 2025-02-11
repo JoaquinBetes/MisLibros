@@ -4621,11 +4621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\MisLibrosAPI.csproj",
+      "projectUniqueName": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\MisLibrosAPI.csproj",
       "projectName": "MisLibrosAPI",
-      "projectPath": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\MisLibrosAPI.csproj",
+      "projectPath": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\MisLibrosAPI.csproj",
       "packagesPath": "C:\\Users\\betes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\obj\\",
+      "outputPath": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
