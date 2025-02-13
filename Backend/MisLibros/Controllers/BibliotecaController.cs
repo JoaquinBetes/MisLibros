@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
 using MisLibros.Data;
 using MisLibros.Models.Dtos.Biblioteca;
+using MisLibros.Models.Dtos.Editorial;
+using MisLibros.Models.Dtos.Libro;
 using MisLibros.Models.Entities;
 
 namespace MisLibros.Controllers
@@ -27,12 +29,38 @@ namespace MisLibros.Controllers
         [Route("{idLibro}/{idEditorial}")]
         public async Task<IActionResult> GetBibliotecaById(int idLibro, int idEditorial)
         {
-            var biblioteca = await _context.Bibliotecas.FindAsync([idLibro, idEditorial]);
+            var biblioteca = await _context.Bibliotecas
+                .Include(l => l.Libro)
+                .Include(l => l.Editorial)
+                .FirstOrDefaultAsync(b => b.IdLibro == idLibro && b.IdEditorial == idEditorial);
+
             if (biblioteca is null)
             {
                 return NotFound();
             }
-            return Ok(biblioteca);
+
+            // Mapeo manual a DTO
+            var bibliotecaDto = new BibliotecaDto
+            {
+                IdLibro = biblioteca.IdLibro,
+                IdEditorial = biblioteca.IdEditorial,
+                CantidadPaginas = biblioteca.CantidadPaginas,
+                Libro = new LibroSimpleDto
+                {
+                    Id = biblioteca.Libro.Id,
+                    Titulo = biblioteca.Libro.Titulo,
+                    Descripcion = biblioteca.Libro.Descripcion,
+                    Img_portada = biblioteca.Libro.img_portada,
+                },
+                Editorial = new EditorialSimpleDto
+                {
+                    Id = biblioteca.Editorial.Id,
+                    Nombre = biblioteca.Editorial.Nombre,
+                    Web = biblioteca.Editorial.Web,
+                }
+            };
+
+            return Ok(bibliotecaDto);
         }
         [HttpPost]
         public async Task<IActionResult> AddBiblioteca(AddBibliotecaDto addBibliotecaDto)

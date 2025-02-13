@@ -21,6 +21,7 @@ builder.Services.AddIdentity<Usuario, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+
 // Agrega autenticación y autorización
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
