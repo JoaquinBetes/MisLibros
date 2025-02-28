@@ -1,0 +1,59 @@
+# ------------------
+# .NET 8
+# ------------------
+
+## Directorios de compilación
+**/bin/
+**/obj/
+
+## Archivos y carpetas generados por Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Archivos de log
+*.log
+
+## Archivos de bases de datos locales (por ejemplo, LocalDB, SQLite)
+*.mdf
+*.ldf
+*.sqlite
+
+## Archivos temporales y de caché
+*.cache
+*.tmp
+
+# NOTA: Generalmente se versionan las migraciones de Entity Framework
+# ya que forman parte del código fuente. Si por alguna razón
+# deseas ignorar archivos específicos de migraciones, agrégalos aquí.
+# Por ejemplo, si quisieras ignorar archivos de migraciones temporales:
+# /backend/MyProject.API/Migrations/Temp*
+
+# ------------------
+# Angular
+# ------------------
+
+## Dependencias de Node
+node_modules/
+
+## Salida de compilación de Angular
+dist/
+.angular/cache/
+
+## Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Archivos del sistema (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# ------------------
+# Archivos de configuración local
+# ------------------
+
+## Variables de entorno (si contienen información sensible)
+.env

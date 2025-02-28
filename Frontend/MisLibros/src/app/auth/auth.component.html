@@ -1,0 +1,134 @@
+<div class="container mt-5">
+    <!-- Pestañas (Tabs) -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{'active': activeTab === 'login'}"
+          (click)="setActiveTab('login')"
+          style="cursor:pointer;"
+        >
+          Login
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{'active': activeTab === 'signin'}"
+          (click)="setActiveTab('signin')"
+          style="cursor:pointer;"
+        >
+          Sign In
+        </a>
+      </li>
+    </ul>
+  
+    <!-- Contenido según la pestaña activa -->
+    <div class="tab-content mt-3">
+      <!-- Contenido para Login -->
+      <div class="tab-pane fade" [ngClass]="{'show active': activeTab === 'login'}">
+        <form>
+          <div class="mb-3">
+            <label for="loginEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+          </div>
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+  
+      <!-- Contenido para Sign In -->
+      <!-- Contenido según pestaña activa -->
+  <div class="tab-content mt-3">
+    <!-- Formulario de Sign In -->
+    <div class="tab-pane fade" [ngClass]="{'show active': activeTab === 'signin'}">
+      <form [formGroup]="signinForm" (ngSubmit)="onSignInSubmit()">
+        <div class="mb-0">
+          <label for="signInUsername" class="form-label">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="signInUsername"
+            formControlName="nombreUsuario"
+            placeholder="Enter username"
+          />
+          <div class="error-message mb-0" [ngClass]="{'visible': signinForm.get('nombreUsuario')?.invalid && (signinForm.get('nombreUsuario')?.touched || signinForm.get('nombreUsuario')?.dirty)}">
+              <span class="text-danger mb-0">Username is required.</span> 
+          </div>
+        </div>
+        <div class="mb-0">
+          <label for="signInEmail" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="signInEmail"
+            formControlName="email"
+            placeholder="Enter email"
+          />
+          <div class="error-message mb-0" [ngClass]="{'visible': signinForm.get('email')?.invalid && (signinForm.get('email')?.touched || signinForm.get('email')?.dirty)}">
+            @if(signinForm.get('email')?.errors?.['required']){
+              <span class="text-danger mb-0">Email is required.</span> 
+            }
+            @if(signinForm.get('email')?.errors?.['email']){
+              <span class="text-danger mb-0">Please enter a valid email address.</span> 
+            }
+          </div>
+        </div>
+        <div class="mb-0">
+          <label for="signInName" class="form-label">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="signInName"
+            formControlName="nombreCompleto"
+            placeholder="Enter full name"
+          />
+          <div class="error-message mb-0" [ngClass]="{'visible': signinForm.get('nombreCompleto')?.invalid && (signinForm.get('nombreCompleto')?.touched || signinForm.get('nombreCompleto')?.dirty)}">
+            <span class="text-danger mb-0">Full Name is required.</span> 
+          </div>
+        </div>
+        <div class="mb-0">
+          <label for="signInRole" class="form-label">Role</label>
+          <input
+            type="text"
+            class="form-control"
+            id="signInRole"
+            formControlName="rol"
+            placeholder="Enter role"
+          />
+          <div class="error-message mb-0" [ngClass]="{'visible': signinForm.get('rol')?.invalid && (signinForm.get('rol')?.touched || signinForm.get('rol')?.dirty)}">
+            <span class="text-danger mb-0">Role is required.</span> 
+          </div>
+        </div>
+        <div class="mb-0">
+          <label for="signInPassword" class="form-label">Password</label>
+          <span class="text-success">  (must have at least one uppercase letter, one number, one special character and be at least 8 characters long).</span>
+          <input
+            type="password"
+            class="form-control"
+            id="signInPassword"
+            formControlName="password"
+            placeholder="Enter password"
+          />
+          <div class="error-message mb-0" [ngClass]="{'visible': signinForm.get('password')?.invalid && (signinForm.get('password')?.touched || signinForm.get('password')?.dirty)}">
+            @if(signinForm.get('password')?.errors?.['required']){
+              <span class="text-danger mb-0">Password is required.</span> 
+            }
+            @if(signinForm.get('password')?.errors?.['pattern']){
+              <span class="text-danger mb-0">Password must have at least one uppercase letter, one number, one special character and be at least 8 characters long.</span> 
+            }
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary m-3" [disabled]="signinForm.invalid">
+          Sign In
+        </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal de error reutilizable -->
+<app-error-modal [errorMessage]="errorMessage" (close)="closeModal()"></app-error-modal>

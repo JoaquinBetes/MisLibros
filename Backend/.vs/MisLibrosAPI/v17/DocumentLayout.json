@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\models\\dtos\\apunte\\updateapuntedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\dtos\\apunte\\updateapuntedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\onedrive\\desktop\\proyectos\\mislibros\\backend\\mislibros\\controllers\\apuntecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\controllers\\apuntecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,11 +34,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Program.cs",
+              "RelativeDocumentMoniker": "MisLibros\\Program.cs",
+              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Program.cs",
+              "RelativeToolTip": "MisLibros\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:49:29.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\appsettings.json",
+              "RelativeDocumentMoniker": "MisLibros\\appsettings.json",
+              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\appsettings.json",
+              "RelativeToolTip": "MisLibros\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T17:28:58.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Editorial.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
               "RelativeDocumentMoniker": "MisLibros\\Models\\Entities\\Editorial.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
+              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
               "RelativeToolTip": "MisLibros\\Models\\Entities\\Editorial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,67 +73,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
               "RelativeDocumentMoniker": "MisLibros\\Models\\Entities\\Libro.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
+              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
               "RelativeToolTip": "MisLibros\\Models\\Entities\\Libro.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T22:16:20.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MisLibros\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:13:16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BibliotecaController.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\BibliotecaController.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Controllers\\BibliotecaController.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\BibliotecaController.cs",
-              "RelativeToolTip": "MisLibros\\Controllers\\BibliotecaController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:58:58.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateApunteDto.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
-              "RelativeToolTip": "MisLibros\\Models\\Dtos\\Apunte\\UpdateApunteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T22:50:05.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApunteController.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\ApunteController.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Controllers\\ApunteController.cs",
-              "ToolTip": "C:\\Users\\betes\\OneDrive\\Desktop\\proyectos\\MisLibros\\Backend\\MisLibros\\Controllers\\ApunteController.cs",
-              "RelativeToolTip": "MisLibros\\Controllers\\ApunteController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwD8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T22:48:53.362Z",
               "EditorCaption": ""
             }
           ]

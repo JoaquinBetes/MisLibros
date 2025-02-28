@@ -1,0 +1,9 @@
+.error-message {
+    min-height: 1.5rem; /* Ajusta según el tamaño del texto */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .error-message.visible {
+    opacity: 1;
+  }

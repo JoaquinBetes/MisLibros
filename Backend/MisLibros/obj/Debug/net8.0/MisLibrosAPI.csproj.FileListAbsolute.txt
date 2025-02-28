@@ -455,3 +455,4 @@ C:\Users\betes\OneDrive\Desktop\proyectos\MisLibros\Backend\MisLibros\obj\Debug\
 C:\Users\betes\OneDrive\Desktop\proyectos\MisLibros\Backend\MisLibros\obj\Debug\net8.0\MisLibrosAPI.pdb
 C:\Users\betes\OneDrive\Desktop\proyectos\MisLibros\Backend\MisLibros\obj\Debug\net8.0\MisLibrosAPI.genruntimeconfig.cache
 C:\Users\betes\OneDrive\Desktop\proyectos\MisLibros\Backend\MisLibros\obj\Debug\net8.0\ref\MisLibrosAPI.dll
+C:\Users\betes\source\repos\MisLibros\Backend\MisLibros\obj\Debug\net8.0\MisLibrosAPI.sourcelink.json

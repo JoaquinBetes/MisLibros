@@ -5,6 +5,17 @@ using MisLibros.Models.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configura CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularDev", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Agrega controladores
 builder.Services.AddControllers();
 
@@ -27,6 +38,9 @@ builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
+
+// Habilita CORS antes de otros middlewares
+app.UseCors("AllowAngularDev");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
