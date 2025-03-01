@@ -4,6 +4,7 @@ import { AuthService, RegisterDto } from './auth.service';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ErrorModalComponent } from '../shared/error-modal/error-modal.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-auth',
@@ -20,7 +21,7 @@ export class AuthComponent {
   signinForm: FormGroup;
   errorMessage: string | null = null;
 
-  constructor(private fb: FormBuilder, private authService: AuthService) {
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
     this.signinForm = this.fb.group({
       nombreUsuario: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
@@ -42,7 +43,7 @@ export class AuthComponent {
     this.authService.register(registerData).subscribe({
       next: (res) => {
         console.log('Usuario registrado exitosamente:', res);
-        // Aquí podrías redirigir o notificar al usuario
+        this.router.navigate(['/dashboard'])
       },
       error: (err) => {
         this.errorMessage = err.error?.message || 'Ocurrió un error inesperado al registrar el usuario.';

@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\models\\entities\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|c:\\users\\betes\\source\\repos\\mislibros\\backend\\mislibros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB09307-DA21-4E4E-BA14-5D092A84B6DD}|MisLibros\\MisLibrosAPI.csproj|solutionrelative:mislibros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Program.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Program.cs",
-              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Program.cs",
-              "RelativeToolTip": "MisLibros\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MisLibros\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MisLibros\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:49:29.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\appsettings.json",
-              "RelativeDocumentMoniker": "MisLibros\\appsettings.json",
-              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\appsettings.json",
-              "RelativeToolTip": "MisLibros\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T17:28:58.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Editorial.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Models\\Entities\\Editorial.cs",
-              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Editorial.cs",
-              "RelativeToolTip": "MisLibros\\Models\\Entities\\Editorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:18:51.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
-              "RelativeDocumentMoniker": "MisLibros\\Models\\Entities\\Libro.cs",
-              "ToolTip": "C:\\Users\\betes\\source\\repos\\MisLibros\\Backend\\MisLibros\\Models\\Entities\\Libro.cs",
-              "RelativeToolTip": "MisLibros\\Models\\Entities\\Libro.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:16:20.934Z",
+              "WhenOpened": "2025-03-01T18:31:55.174Z",
               "EditorCaption": ""
             }
           ]

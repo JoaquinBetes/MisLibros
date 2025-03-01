@@ -23,23 +23,38 @@ namespace MisLibros.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            var user = new Usuario
+            try
             {
-                UserName = model.NombreUsuario,
-                Email = model.Email,
-                NombreCompleto = model.NombreCompleto,
-                Rol = model.Rol
-            };
+                var user = new Usuario
+                {
+                    UserName = model.NombreUsuario,
+                    Email = model.Email,
+                    NombreCompleto = model.NombreCompleto,
+                    Rol = model.Rol
+                };
 
-            // Guarda el usuario y genera un hash para la contraseña
-            var result = await _userManager.CreateAsync(user, model.Password);
+                // Guarda el usuario y genera un hash para la contraseña
+                var result = await _userManager.CreateAsync(user, model.Password);
 
-            if (result.Succeeded)
-            {
-                return Ok("Usuario registrado exitosamente.");
+                if (result.Succeeded)
+                {
+                    return Ok(new { message = "Usuario registrado exitosamente." });
+                }
+                else if (result.Errors.Any(e => e.Code == "DuplicateUserName"))
+                {
+                    return BadRequest(new { message = "El nombre de usuario ya esta registrado.", details = result.Errors });
+                }
+                if (result.Errors.Any(e => e.Code == "DuplicateEmail"))
+                {
+                    return BadRequest(new { message = "El email ya esta registrado.", details = result.Errors });
+                }
+
+                return BadRequest(result.Errors);
             }
-
-            return BadRequest(result.Errors);
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error interno: {ex.Message}");
+            }
         }
 
         [HttpGet]
