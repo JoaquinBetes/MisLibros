@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using MisLibros.Data;
 using MisLibros.Models.Dtos.Usuario;
 using MisLibros.Models.Entities;
+using MisLibrosAPI.Models.Dtos.Usuario;
 
 namespace MisLibros.Controllers
 {
@@ -13,10 +14,12 @@ namespace MisLibros.Controllers
     public class UsersController : ControllerBase
     {
         private readonly UserManager<Usuario> _userManager;
+        private readonly SignInManager<Usuario> _signInManager;
 
-        public UsersController(UserManager<Usuario> userManager)
+        public UsersController(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         [HttpPost]
@@ -97,16 +100,14 @@ namespace MisLibros.Controllers
         }
 
         [HttpGet]
-        [Route("username/{username}")]
-        public async Task<IActionResult> GetUserByUsername(string username)
+        [Route("email/{email}")]
+        public async Task<IActionResult> GetUserByEmail(string email)
         {
-            var user = await _userManager.FindByNameAsync(username);
-
+            var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
             {
                 return NotFound("Usuario no encontrado.");
             }
-
             return Ok(new
             {
                 user.Id,
@@ -115,6 +116,29 @@ namespace MisLibros.Controllers
                 user.NombreCompleto,
                 user.Rol
             });
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDto model)
+        {
+            // Buscar el usuario por email (ya que usas email para login)
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return NotFound("Usuario no encontrado.");
+            }
+
+            // Verificar la contraseña (Identity se encarga de hacer el hash y compararlo)
+            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, lockoutOnFailure: false);
+            if (!result.Succeeded)
+            {
+                return Unauthorized("Credenciales inválidas.");
+            }
+
+            // Aquí podrías generar y retornar un JWT o establecer cookies para la sesión,
+            // pero por el ejemplo devolveremos simplemente un mensaje de éxito.
+            return Ok(new { message = "Login exitoso." });
         }
 
         [HttpPut]
